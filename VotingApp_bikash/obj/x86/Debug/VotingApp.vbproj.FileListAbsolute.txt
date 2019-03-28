@@ -1,0 +1,10 @@
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.Form1.resources
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.Resources.resources
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.register.resources
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.vbproj.GenerateResource.Cache
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\bin\Debug\VotingApp.exe
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\bin\Debug\VotingApp.pdb
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\bin\Debug\VotingApp.xml
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.exe
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.xml
+C:\Users\Bikash\AppData\Local\Temporary Projects\VotingApp\obj\x86\Debug\VotingApp.pdb

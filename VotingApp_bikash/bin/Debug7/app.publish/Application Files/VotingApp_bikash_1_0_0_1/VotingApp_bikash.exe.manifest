@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VotingApp_bikash.exe" version="1.0.0.1" publicKeyToken="1efbb304b6931824" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VotingApp_bikash" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="VotingApp_bikash.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VotingApp_bikash.exe" size="52224">
+      <assemblyIdentity name="VotingApp_bikash" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FIwW5DknWlH2rW/P6PQZ6sVxIUI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=BIKASH-PC\Bikash" issuerKeyHash="6ccd1090bb149769b34762ef0ff137fa2963e43b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BX2M/Dwkd/Wm/WI7OEe11FyaDvc=</DigestValue></Reference></SignedInfo><SignatureValue>DCvy3FNsCn9xhJA5bsbR1LNgxjcc0mXd71+2REpDkbI/O7Onym4gkImcBdp8VvjKXO4k2QgA08+sHVXO1MAhMri+Ojz6vOIks7Popz9vY+RThPZGrhYqApffE0CwC2wzOlrvDLGguTfnIrkqVDCCeAkG2XpKTUHgU8Ut16Xp/lU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vVjF5nU2DQ4ZitYu6LRnK525bRFLe9/gs9wSjmta/saEJNhfafheqjuEjCJlGJs1GKsGnHwbutCjYca1t9d/V2nGQ5ByYPsco8nMHQUs78MLRuJfoCA8wiFF0148962UXkLIGYAzh09zf6peOqve4zq5UsxPn/o0wyESYRNe+f0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f70e9a5cd4b547383b62fda6f577243cfc8c7d05" Description="" Url=""><as:assemblyIdentity name="VotingApp_bikash.exe" version="1.0.0.1" publicKeyToken="1efbb304b6931824" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BIKASH-PC\Bikash</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9ObcB3oCKRQuRZFDc0ytrv6Dl0c=</DigestValue></Reference></SignedInfo><SignatureValue>VZpdY+X6yMKN7VtGWtl/MyME3RNe8cFI+Mi81Qpv9EibA2sC4MOz0Fw+g/DQEJ3uHmY3x+n/75J0Wl56wa7raq3cC+w5oLWvWFv3p0jZnoiKqqJvqlEDXAKqs5bQi7IAHDqlxU2TsFHJzrJxWHm5V5NqJuAodk0VnlxuNWnED3w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vVjF5nU2DQ4ZitYu6LRnK525bRFLe9/gs9wSjmta/saEJNhfafheqjuEjCJlGJs1GKsGnHwbutCjYca1t9d/V2nGQ5ByYPsco8nMHQUs78MLRuJfoCA8wiFF0148962UXkLIGYAzh09zf6peOqve4zq5UsxPn/o0wyESYRNe+f0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQPLbe+KrnHIxBRc6K6UZ36jANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQgBJAEsAQQBTAEgALQBQAEMAXABCAGkAawBhAHMAaDAeFw0xODEwMTMxNzA4NTFaFw0xOTEwMTMyMzA4NTFaMCsxKTAnBgNVBAMeIABCAEkASwBBAFMASAAtAFAAQwBcAEIAaQBrAGEAcwBoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9WMXmdTYNDhmK1i7otGcrnbltEUt73+Cz3BKOa1r+xoQk2F9p+F6qO4SMImUYmzUYqwacfBu60KNhxrW3139XacZDkHJg+xyjycwdBSzvwwtG4l+gIDzCIUXTXjz3rZReQsgZgDOHT3N/ql46q97jOrlSzE+f+jTDIRJhE175/QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAElHr2QQFYwt293bkrbXGSsd/5XY5dGmwMsn5yiTfXnmxWH3CmAOgTrCeulF9V7Uf3hQm3gvh7VttOsZcQnKWiHDTnYksh/ORWOTJ6oLx/YAcWfHTVUHO+Myg9+/vNma9ZprnjkFrCxsr+5rBOXNKM1oIY7aTOeZcvBIYnxPvPT0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
